@@ -100,10 +100,6 @@ img {
 /* ------ tablet------- */
 @media  (min-width: 420px) and (max-width: 768px){
 
-  #lezioni{
-    flex-direction: row;
-  }
-
   .container{
     background: rgb(155, 235, 159);
     display: flex;
