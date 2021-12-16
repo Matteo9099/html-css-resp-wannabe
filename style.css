@@ -73,10 +73,10 @@ img {
 }
 
 /* ------ smartphone------- */
-@media (max-width: 419px){
+@media (max-width: 419px) {
 
   .container{
-    background: #cdcd53;
+    background: #dada86;
     display: flex;
   }
 
@@ -91,9 +91,36 @@ img {
     }
 
     #why{
-      background: #cdcd53;
+      background: #dada86;
+    }
+}
+/* ------ smartphone------- */
+
+
+/* ------ tablet------- */
+@media  (min-width: 419px) and (max-width: 768px){
+
+  .container{
+    background: rgb(155, 235, 159);
+    display: flex;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+    .left, .right, .central{
+    min-width: 100%;
     }
 
+    #why{
+      background: rgb(155, 235, 159);
+    }
 }
 
-/* ------ smartphone------- */
+/* ------ tablet------- */
+
+
+
