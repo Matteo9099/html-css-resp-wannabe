@@ -75,6 +75,12 @@ img {
 /* ------ smartphone------- */
 @media (max-width: 419px) {
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .container{
     background: #dada86;
     display: flex;
@@ -100,6 +106,12 @@ img {
 /* ------ tablet------- */
 @media  (min-width: 420px) and (max-width: 768px){
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .container{
     background: rgb(155, 235, 159);
     display: flex;
@@ -119,7 +131,6 @@ img {
       background: rgb(155, 235, 159);
     }
 }
-
 /* ------ tablet------- */
 
 
